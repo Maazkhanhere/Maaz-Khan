@@ -1,6 +1,59 @@
-body{
+form{
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  height: 200%;
+  padding: 150px;
+  }
+  input{
+    font-size: 1em;
+    padding: 10px;
+    margin: 5px;
+  }
+  input.Email{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/005/269/576/original/mail-icon-free-vector.jpg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+    border: 2px solid darkblue;
+  }
+  input.password{
+    background-image: url("https://png.pngtree.com/png-vector/20190917/ourmid/pngtree-circle-password-icon-vectors-png-image_1738057.jpg");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 40px;
+    border: 2px solid darkblue;
+  }
+  button{
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  fieldset{
+    border-radius: 15px;
+    border: 5px solid lightbrown;
+  }
+  legend{
+    padding: 10px;
+    background-color:white;
+    color: blue;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid whitesmoke;
+  }
+  body{
+    background-color: whitesmoke;
+    border-color: brown;
+    background-image: url("khan.avif");
+    background-size: cover; 
+    background-position: center center; 
+    padding: 20px; 
     text-align: center;
-    margin-top: 100px;
-    color: orange;
-    background-color:slategrey;
-}
+    color: white; 
+  }
+  
